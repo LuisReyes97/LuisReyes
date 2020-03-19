@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #955948;
+    padding: 0 20px;
+}
+
+.card-container{
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .2);
+}
+
+.header{
+    border-right: 1px solid #ddd;
+}
+.description{
+background: #fbfbfb;
+position: relative;
+}
+
+.header, .description{
+    padding: 20px;
+    text-align: center;
+}
+
+.header a{
+    position: relative;
+    display: block;
+}
+
+.header img{
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+    margin: 20px 30px;
+    transition: .2s;
+
+}
+.header a:hover img{
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.header h2{
+    color: saddlebrown;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header h4{
+    margin-bottom: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #0c1e7a;
+}
+
+.description p {
+    margin: 20px 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #7a0c2f;
+}
+
+.description h6 {
+  
+    font-family: 'Poppins', sans-serif;
+    color: #7a0c2f;
+}
+
+.description h4 {
+  
+    font-family: 'Nunito Sans', sans-serif;
+    color: #6b0c7a;
+}
+
+
+
+.description .redes_sociales{
+    margin-top: 25px;
+}
+
+.description .redes_sociales a{
+    display: inline-block;
+    padding: 0 15px;
+    color: saddlebrown;
+}
+
+@media (max-width:640px){
+    .card-container{
+        display: block;
+        border: 0px;
+    }
+    .header{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+
+    .description{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+
+    .header h4{
+        margin: 0;
+    }
+}
+
+/*
+
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+
+    font-family: 'Fjalla One', sans-serif;
+
+
+*/
